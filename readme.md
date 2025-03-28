@@ -228,7 +228,7 @@ Reporte operaciones expiradas
 
 
 Reporte con el nivel anterior y actual de los clientes que han sido degradados 
-| idCliente(uuid) | nombre | nivelAnterior | nivelActual(boolean) |
+| idCliente(uuid) | nombre(string) | nivelAnterior(string) | nivelActual(string) |
 |-----------|---------|-----------|-----------|
 | `asdasd12321312asdwas` | `Julian Casablanca` | `premiun` | `standard` | 
 | `asdasd12321312asdwas` | `Albert Hammond` | `vip` | `standard` | 
