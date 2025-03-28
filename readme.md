@@ -69,10 +69,10 @@ db.operation.insertMany([
 ]);
 
 db.client.insertMany([
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b70"), "name": "Pedro Rojas", "categoria": "standard", "limitDaily": 500 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "name": "Laura Castro", "categoria": "premiun", "limitDaily": 20000 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b72"), "name": "Ana Duarte", "categoria": "premiun", "limitDaily": 5000 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "name": "Carlos Mora", "categoria": "premiun", "limitDaily": 1000 }
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b70"), "name": "Pedro Rojas", "category": "standard", "limitDaily": 500 },
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "name": "Laura Castro", "category": "premiun", "limitDaily": 20000 },
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b72"), "name": "Ana Duarte", "category": "premiun", "limitDaily": 5000 },
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "name": "Carlos Mora", "category": "premiun", "limitDaily": 1000 }
 ]);
 ```
 
@@ -236,12 +236,12 @@ Reporte con el nivel anterior y actual de los clientes que han sido degradados
 
 ### Caso 5:
 Documenta como ticket este problema:
-"Las transacciones en PEN no están disparando la revisión manual cuando superan el equivalente a 5,5000 USD, debido a que la conversión se aplica después de la validación inicial."
+"Las transacciones en PEN no están disparando la revisión manual cuando superan el equivalente a 5,500 USD, debido a que la conversión se aplica después de la validación inicial."
 
 **Incluye:**
 1. Query para identificar transacciones afectadas.
 2. Solución temporal ah aplicar (ej: script de corrección).
-3. Propuesta de fix permanente para desarrollo.
+3. Propuesta de fix permanente para desarrollo(Este deberia estar documentado, saber en que bases de datos se originan los problemas, asi como que servicios estarian afectados, plataforma, etc.).
 
 ### Caso 6:
 **Incidentes Simultáneos:**
@@ -257,9 +257,9 @@ Documenta como ticket este problema:
 
 ## 📍 Instruciones de entrega
 
-- Se necesita crear un fork del proyecto y crear un pull request, con un archivo pdf o word, con la resolución de los casos, debe contener las querys de mongo, scripts, etc.
+- Se necesita crear un fork del proyecto y realizar un pull request con un archivo en PDF o Word que contenga la resolución de los casos. Este documento debe incluir las consultas de MongoDB, scripts, etc. Se puede enviar el documento directamente, pero se valorará si se entrega a través de GitHub.
 - Es necesario notificar a la persona que te contacto para que revise la solución en el momento de completar la prueba.
 - En la siguiente etapa se realizará una entrevista técnica para revisar la solución.
-- El tiempo estimado para completar la prueba es de 7 días desde el inicio de la misma.
+- El tiempo estimado para completar la prueba es de 3 días desde el inicio de la misma.
 
 Quedamos atentos a cualquier consulta adicional, muchos éxitos! 🚀
