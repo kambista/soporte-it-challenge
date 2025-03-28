@@ -252,3 +252,14 @@ Documenta como ticket este problema:
 **Tareas:**
 1. Ordena las soluciones y justifica tu respuesta.
 2. ¿Qué información pedirías a cada área involucrada o con que personas te comunicarias?
+
+
+
+## 📍 Instruciones de entrega
+
+- Se necesita crear un fork del proyecto y crear un pull request, con un archivo pdf o word, con la resolución de los casos, debe contener las querys de mongo, scripts, etc.
+- Es necesario notificar a la persona que te contacto para que revise la solución en el momento de completar la prueba.
+- En la siguiente etapa se realizará una entrevista técnica para revisar la solución.
+- El tiempo estimado para completar la prueba es de 7 días desde el inicio de la misma.
+
+Quedamos atentos a cualquier consulta adicional, muchos éxitos! 🚀
