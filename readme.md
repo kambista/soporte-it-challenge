@@ -1,6 +1,6 @@
 # Challenge de Soporte IT 🚀  
 
-👋 Somos Kambista y estamos en la búsqueda de un nuevo miembro para nuestro equipo de tech que nos ayude a seguir ofreciendo la mejor experiencia de cambio, para esto hemos preparado un reto técnico el cual pueden completar y enviarnos el resultado con las instrucciones instruciones de entrega
+👋 Somos Kambista y estamos en la búsqueda de un nuevo miembro para nuestro equipo de tech que nos ayude a seguir ofreciendo la mejor experiencia de cambio, para esto hemos preparado un reto técnico el cual pueden completar y enviarnos el resultado con las instrucciones de entrega
 
 ## 📌 Configuración de Base de Datos Local con Docker  
 Para facilitar la prueba, te proporcionamos una base de datos local utilizando Docker. Sigue las instrucciones a continuación para configurar y ejecutar MongoDB en tu entorno local.
@@ -46,11 +46,11 @@ db.operation.insertMany([
   { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b60"), "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b70"), "amountDestination": 300, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T09:00:00Z"), "category": "standard" },
   { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b61"),  "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b70"), "amountDestination": 200, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T10:30:00Z"), "category": "standard" },
 
-  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b62"), "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 5000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T08:00:00Z"), "category": "premiun" },
-  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b63"),  "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 7000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T11:00:00Z"), "category": "premiun" },
-  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b64"),  "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 3000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T14:00:00Z"), "category": "premiun" },
-  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b68"),  "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 2000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T16:00:00Z"), "category": "premiun" },
-  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b69"),  "isTransferred": false, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 1000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T18:00:00Z"), "category": "premiun" },
+  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b62"), "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 5000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T08:00:00Z"), "category": "premium" },
+  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b63"),  "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 7000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T11:00:00Z"), "category": "premium" },
+  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b64"),  "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 3000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T14:00:00Z"), "category": "premium" },
+  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b68"),  "isTransferred": true, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 2000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T16:00:00Z"), "category": "premium" },
+  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b69"),  "isTransferred": false, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "amountDestination": 1000, "currency": "USD", "status": 2, "date": ISODate("2024-03-28T18:00:00Z"), "category": "premium" },
   {
     "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b65"),
     "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b72"),
@@ -59,26 +59,26 @@ db.operation.insertMany([
     "status": 2,
     "isTransferred": true,
     "date": ISODate("2024-03-28T12:00:00Z"),
-    "category": "premiun",
+    "category": "premium",
     "exchangeRate": 3.8,
     "convertedAmount": 5131.57,
     "manualReview": false 
   },
-  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b66"), "isTransferred": false, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "amountDestination": 600, "currency": "USD", "status": 1, "date": ISODate("2024-03-25T14:00:00Z"), "category": "premiun" },
-  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b67"),  "isTransferred": false, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "amountDestination": 1200, "currency": "USD", "status": 1, "date": ISODate("2024-03-25T15:00:00Z"), "category": "premiun" }
+  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b66"), "isTransferred": false, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "amountDestination": 600, "currency": "USD", "status": 1, "date": ISODate("2024-03-25T14:00:00Z"), "category": "premium" },
+  { "_id": ObjectId("65a3f1f87a1b4f9d3c8e2b67"),  "isTransferred": false, "clientId": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "amountDestination": 1200, "currency": "USD", "status": 1, "date": ISODate("2024-03-25T15:00:00Z"), "category": "premium" }
 ]);
 
 db.client.insertMany([
   { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b70"), "name": "Pedro Rojas", "category": "standard", "limitDaily": 500 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "name": "Laura Castro", "category": "premiun", "limitDaily": 20000 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b72"), "name": "Ana Duarte", "category": "premiun", "limitDaily": 5000 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "name": "Carlos Mora", "category": "premiun", "limitDaily": 1000 }
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "name": "Laura Castro", "category": "premium", "limitDaily": 20000 },
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b72"), "name": "Ana Duarte", "category": "premium", "limitDaily": 5000 },
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "name": "Carlos Mora", "category": "premium", "limitDaily": 1000 }
 ]);
 ```
 
 
 # 📓 Situación
-Kambista es una casa de cambio digital donde los clientes pueden realizar operaciones de compra y venta de divisas. Pero ultimamente se estan presentando problemas con sus operaciones.
+Kambista es una casa de cambio digital donde los clientes pueden realizar operaciones de compra y venta de divisas. ultimamente se estan presentando problemas con sus operaciones.
 
 ## Reglas de Negocio
 ### Estados de una operación:
@@ -87,9 +87,9 @@ Kambista es una casa de cambio digital donde los clientes pueden realizar operac
 - **(3 )rechazado**: No debe contar para los limites diarios.
 - **(4) expirado**: Estado automático después de 48h en pendiente. No cuenta para límites.
 
-### Límites Diarios:
+### Límites Diarios para las categorías:
 - **standard**: 2 operaciones "completado" por día.
-- **premiun**: 4 operaciones "completado".
+- **premium**: 4 operaciones "completado".
 - **vip**: Sin límite, pero transacciones >5,500 USD requieren una revisión manual(Esto aplica para todas las categorias).
 
 ### Colecciones:
@@ -109,7 +109,7 @@ nota: Las operaciones que son completadas como siguiente paso son transferidas a
 
 
 ### Caso 2:
-"Tenemos un cliente con el siguiente id: 65a3f2007a1b4f9d3c8e2b71,  que finalizo su operación con id: '65a3f1f87a1b4f9d3c8e2b62', estamos a punto de transferirle el valor de su operación, pero validamos que se le permitio crear una mas halla de su limite de operaciones."
+"Tenemos un cliente con el siguiente id: 65a3f2007a1b4f9d3c8e2b71,  que finalizo su operación con id: '65a3f1f87a1b4f9d3c8e2b62', estamos a punto de transferirle el valor de su operación, pero validamos que se le permitio crear una más allá de su límite de operaciones."
 
 
 **Tareas:**
@@ -154,7 +154,7 @@ db.operation.insertMany([
     "currency": "PEN",
     "status": 2,
     "date": ISODate("2024-03-28T12:00:00Z"),
-    "category": "premiun",
+    "category": "premium",
     "exchangeRate": 3.8,
     "convertedAmount": 5131.57,
     "manualReview": false
@@ -203,7 +203,7 @@ db.client.insertMany([
   {
     "_id": ObjectId("65a3f2007a1b4f9d3c8e2b91"),
     "name": "Albert Hammond",
-    "category": "premiun"
+    "category": "premium"
   }
 ])
 
@@ -230,7 +230,7 @@ Reporte operaciones expiradas
 Reporte con el nivel anterior y actual de los clientes que han sido degradados 
 | idCliente(uuid) | nombre(string) | nivelAnterior(string) | nivelActual(string) |
 |-----------|---------|-----------|-----------|
-| `asdasd12321312asdwas` | `Julian Casablanca` | `premiun` | `standard` | 
+| `asdasd12321312asdwas` | `Julian Casablanca` | `premium` | `standard` | 
 | `asdasd12321312asdwas` | `Albert Hammond` | `vip` | `standard` | 
 
 
@@ -240,7 +240,7 @@ Documenta como ticket este problema:
 
 **Incluye:**
 1. Query para identificar transacciones afectadas.
-2. Solución temporal ah aplicar (ej: script de corrección).
+2. Solución temporal ah aplicar (ej: script de corrección o documentación de un proceso manual de solución).
 3. Propuesta de fix permanente para desarrollo(Este deberia estar documentado, saber en que bases de datos se originan los problemas, asi como que servicios estarian afectados, plataforma, etc.).
 
 ### Caso 6:
