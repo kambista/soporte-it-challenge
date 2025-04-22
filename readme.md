@@ -260,6 +260,6 @@ Documenta como ticket este problema:
 - Se necesita crear un fork del proyecto y realizar un pull request con un archivo en PDF o Word que contenga la resolución de los casos. Este documento debe incluir las consultas de MongoDB, scripts, etc. Se puede enviar el documento directamente, pero se valorará si se entrega a través de GitHub.
 - Es necesario notificar a la persona que te contacto para que revise la solución en el momento de completar la prueba.
 - En la siguiente etapa se realizará una entrevista técnica para revisar la solución.
-- El tiempo estimado para completar la prueba es de 3 días desde el inicio de la misma.
+- El tiempo estimado para completar la prueba es de 7 días desde el inicio de la misma.
 
 Quedamos atentos a cualquier consulta adicional, muchos éxitos! 🚀
