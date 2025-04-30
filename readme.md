@@ -69,10 +69,10 @@ db.operation.insertMany([
 ]);
 
 db.client.insertMany([
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b70"), "name": "Pedro Rojas", "category": "standard", "limitDaily": 500 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "name": "Laura Castro", "category": "premium", "limitDaily": 20000 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b72"), "name": "Ana Duarte", "category": "premium", "limitDaily": 5000 },
-  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "name": "Carlos Mora", "category": "premium", "limitDaily": 1000 }
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b70"), "name": "Pedro Rojas", "category": "standard" },
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b71"), "name": "Laura Castro", "category": "premium" },
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b72"), "name": "Ana Duarte", "category": "premium" },
+  { "_id": ObjectId("65a3f2007a1b4f9d3c8e2b73"), "name": "Carlos Mora", "category": "premium" }
 ]);
 ```
 
